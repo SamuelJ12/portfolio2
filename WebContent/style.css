@@ -2,6 +2,66 @@
 /*-------------------*/
 /*  General Setting  */
 /*-------------------*/
-#body {
-	
+
+body{
+	margin					: 0px;
 }
+
+/*-------------------*/
+/*   Header Setting  */
+/*-------------------*/
+
+header {
+	background-color		: #5e8ff6;
+	width					: 100%;
+	height					: 45px;
+	margin					: 0px;
+}
+
+header .brand-logo{
+	padding					: 0 0 0 20px;
+	color					: #fff;
+	float					: left;
+	text-decoration			: none;
+	font-size				: 40px;
+	font-weight				: 500;
+	line-height				: 45px;
+	text-align				: center;
+}
+
+header .brand-logo:visited{
+	color					: #fff;
+}
+
+header .nav{
+	margin					: 0px;
+	padding					: 5px 5px;
+	position				: relative;
+	float					: right;
+}
+
+header .nav li{
+	display					: inline;
+	height					: 45px;
+}
+
+header .nav li a{
+	font-size				: 20px;
+  	padding					: 13px 10px;
+  	text-transform			: uppercase;
+	text-decoration			: none;
+	color					: #fff;
+	vertical-align			: middle;
+}
+
+header .nav li a:hover{
+	background-color		: #0080c0;
+}
+
+header .nav li a:visited{
+	color					: #fff;
+}
+
+/*-------------------*/
+/* Introduce Setting */
+/*-------------------*/
