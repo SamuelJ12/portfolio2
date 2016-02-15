@@ -68,12 +68,17 @@ header .nav li a:visited{
 /* Introduce Setting */
 /*-------------------*/
 .introduce{
-	position: relative;
-    background: #fff;
-    overflow: hidden;
+	opacity					: 0.6;
+	width					: 100%;
+	height					: 250px;
+	background-image		: url('webDevelopment.jpg');
+	background-repeat		: no-repeat;
+	background-size			: 100% 100%;
+	background-position		: 50% 0;
+	vertical-align			: middle;
 }
 .introduce:before{
-	content: ' ';
+	/*content: ' ';
     display: block;
     position: absolute;
     left: 0;
@@ -89,8 +94,10 @@ header .nav li a:visited{
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
+    
 }
 .introduce h1{
 	text-align				: center;
+	margin					: 0px;
 }
