@@ -117,11 +117,13 @@ header .nav li a:visited{
 	background-color		: #8aa7ff;
 }
 .main-section #about .about-logo{
-	background-image		: url('http://i.imgur.com/spS6CMo.jpg'); 
-	height					: 30px;
-	width					: 30px;
-	padding					: 0px;
-	margin					: 0px;
+	width					: 150px;
+	height					: 150px;
 	float					: left;
-	position				: absolute;
+	position				: relative;
+}
+
+.main-section #about .about-logo .about-logo-pic{
+	width					: 100%;
+	height					: 100%;
 }
