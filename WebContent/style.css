@@ -103,9 +103,25 @@ header .nav li a:visited{
 	text-transform			: uppercase;
 	text-align				: center;
 }
-/*-------------------*/
-/*  About-me Setting */
-/*-------------------*/
-#about{
-	
+/*--------------------*/
+/*    Main  Setting   */
+/*--------------------*/
+.main-section{
+	padding					: 0px;
+	margin					: 0px;
+}
+/*--------------------*/
+/*  AboutMe  Setting  */
+/*--------------------*/
+.main-section #about{
+	background-color		: #8aa7ff;
+}
+.main-section #about .about-logo{
+	background-image		: url('http://i.imgur.com/spS6CMo.jpg'); 
+	height					: 30px;
+	width					: 30px;
+	padding					: 0px;
+	margin					: 0px;
+	float					: left;
+	position				: absolute;
 }
