@@ -126,7 +126,7 @@ header .nav li a:visited{
 /*  AboutMe  Setting  */
 /*--------------------*/
 .main-section #about{
-	background-color		: #808080;
+	background-color		: #c0c0c0;
 	padding					: 10px 100px;
 }
 .main-section #about .about-logo{
@@ -134,9 +134,13 @@ header .nav li a:visited{
 	height					: 150px;
 	border					: 4px black;
 	border-style			: double;
+	position				: absolute;	
 }
 
 .main-section #about .about-logo .about-logo-pic{
 	width					: 100%;
 	height					: 100%;
+}
+.main-section #about .about-introduce{
+	padding					: 0 0 0 250px;
 }
