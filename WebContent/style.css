@@ -24,7 +24,7 @@ header {
 }
 
 header .brand-logo{
-	padding					: 0 0 0 20px;
+	padding					: 0 0 0 100px;
 	color					: #fff;
 	float					: left;
 	text-decoration			: none;
@@ -40,7 +40,7 @@ header .brand-logo:visited{
 
 header .nav{
 	margin					: 0px;
-	padding					: 5px 5px;
+	padding					: 5px 100px 5px 5px;
 	position				: relative;
 	float					: right;
 }
@@ -126,7 +126,8 @@ header .nav li a:visited{
 /*  AboutMe  Setting  */
 /*--------------------*/
 .main-section #about{
-	background-color		: #5e8ff6;
+	background-color		: #808080;
+	padding					: 10px 100px;
 }
 .main-section #about .about-logo{
 	width					: 150px;
