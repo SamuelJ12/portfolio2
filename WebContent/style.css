@@ -1,6 +1,9 @@
 @CHARSET "utf-8";
+/*---------------------------------------------------------*/
+/*                  Desktop Setting                        */  
+/*---------------------------------------------------------*/
 /*-------------------*/
-/*  General Setting  */
+/*  General Setting/*  
 /*-------------------*/
 
 body{
@@ -126,7 +129,7 @@ header .nav li a:visited{
 /*  AboutMe  Setting  */
 /*--------------------*/
 .main-section #about{
-	background-color		: #808080;
+	background-color		: #8080c0;
 	padding					: 10px 100px;
 }
 .main-section #about .about-logo{
