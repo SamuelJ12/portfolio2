@@ -1,4 +1,7 @@
 @CHARSET "utf-8";
+@font-face{
+	
+}
 /*-------------------*/
 /*  General Setting  */
 /*-------------------*/
@@ -126,7 +129,6 @@ header .nav li a:visited{
 /*  AboutMe  Setting  */
 /*--------------------*/
 .main-section #about{
-	background-color		: #c0c0c0;
 	padding					: 10px 100px;
 }
 .main-section #about .about-logo{
@@ -142,5 +144,50 @@ header .nav li a:visited{
 	height					: 100%;
 }
 .main-section #about .about-introduce{
-	padding					: 0 0 0 250px;
+	padding					: 0 0 0 350px;
+}
+.main-section #about .about-introduce .about-introduce-myself{
+
+}
+
+.main-section #about .about-introduce .about-introduce-myself h2{
+	color					: #ff8000;
+	margin					: 0px;
+	padding					: 20px 0 0 0;
+}
+
+.main-section #about .about-introduce .about-introduce-myself h3{
+	padding					: 0px 20px 0px 30px;
+	margin					: 10px 0px;
+}
+
+.main-section #about .about-introduce .about-introduce-info h2{
+	color					: #ff8000;
+	margin					: 0px;
+}
+.main-section #about .about-introduce .about-introduce-info ul{
+	list-style				: none;
+	width					: 450px;
+}
+.main-section #about .about-introduce .about-introduce-info ul li{
+	font-family				: ;
+}
+.main-section #about .about-introduce .about-introduce-info ul li span{
+	float					: right;
+}
+/*--------------------*/
+/*   Skills Setting   */
+/*--------------------*/
+.main-section #skills{
+	padding					: 10px 100px;
+	background-color		: #787878;
+}
+.main-section #skills .skills-introduce{
+	
+}
+.main-section #skills .skills-introduce h2{
+	color					: #ff8000;
+}
+.main-section #skills .skills-introduce h3{
+	color					: #fff;
 }
